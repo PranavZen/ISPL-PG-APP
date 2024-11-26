@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ispl",
+    "slug": "ispl",
+    "version": "4.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#263574"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cricclubs.isplt10"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#263574"
+      },
+      "package": "com.isplt10.ispl"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "499b36a0-ac4c-4ed4-aee0-822fd1fcd750"
+      }
+    }
+  }
+}
