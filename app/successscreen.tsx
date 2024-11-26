@@ -88,7 +88,7 @@ const SuccessScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.lottieWrap}>
-        <Text style={styles.title}>Payment was successful!</Text>
+        <Text style={styles.title}>Payment was successful!..</Text>
         <Text style={styles.text}>Order ID: {orderId}</Text>
         <Text style={styles.text}>Amount: ₹{amount}</Text>
         <LottieView
